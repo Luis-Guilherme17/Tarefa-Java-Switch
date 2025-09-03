@@ -56,6 +56,7 @@ try{
         System.out.println("O valor digitado não é válido, digite outro por favor.");
 
         }finally{
+        scanner.close();
         System.out.println("Obrigado por utilizar o nosso serviço.");
         }        
     }
